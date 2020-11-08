@@ -13,6 +13,8 @@
 		4136E30C2557EBD300FE24D4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E30B2557EBD300FE24D4 /* Framework.swift */; };
 		4136E30F2557EC4600FE24D4 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E30E2557EC4600FE24D4 /* MockData.swift */; };
 		4136E3132557ED4400FE24D4 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E3122557ED4400FE24D4 /* FrameworkGridView.swift */; };
+		4136E317255809F100FE24D4 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E316255809F100FE24D4 /* FrameworkDetailView.swift */; };
+		4136E31A25580C1B00FE24D4 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E31925580C1B00FE24D4 /* AFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4136E30B2557EBD300FE24D4 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		4136E30E2557EC4600FE24D4 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		4136E3122557ED4400FE24D4 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		4136E316255809F100FE24D4 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		4136E31925580C1B00FE24D4 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4136E30E2557EC4600FE24D4 /* MockData.swift */,
 				4136E3042557EB0400FE24D4 /* Info.plist */,
 				4136E3012557EB0400FE24D4 /* Preview Content */,
+				4136E316255809F100FE24D4 /* FrameworkDetailView.swift */,
+				4136E31925580C1B00FE24D4 /* AFButton.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4136E30F2557EC4600FE24D4 /* MockData.swift in Sources */,
+				4136E317255809F100FE24D4 /* FrameworkDetailView.swift in Sources */,
 				4136E3132557ED4400FE24D4 /* FrameworkGridView.swift in Sources */,
 				4136E30C2557EBD300FE24D4 /* Framework.swift in Sources */,
+				4136E31A25580C1B00FE24D4 /* AFButton.swift in Sources */,
 				4136E2FC2557EB0400FE24D4 /* Apple_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
