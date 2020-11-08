@@ -12,13 +12,13 @@
 		4136E3032557EB0400FE24D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4136E3022557EB0400FE24D4 /* Preview Assets.xcassets */; };
 		4136E30C2557EBD300FE24D4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E30B2557EBD300FE24D4 /* Framework.swift */; };
 		4136E30F2557EC4600FE24D4 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E30E2557EC4600FE24D4 /* MockData.swift */; };
-		4136E3132557ED4400FE24D4 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E3122557ED4400FE24D4 /* FrameworkGridView.swift */; };
 		4136E317255809F100FE24D4 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E316255809F100FE24D4 /* FrameworkDetailView.swift */; };
 		4136E31A25580C1B00FE24D4 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E31925580C1B00FE24D4 /* AFButton.swift */; };
-		4136E31D255817BC00FE24D4 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E31C255817BC00FE24D4 /* FrameworkGridViewModel.swift */; };
 		4136E3202558620800FE24D4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E31F2558620800FE24D4 /* SafariView.swift */; };
 		4136E323255867E300FE24D4 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E322255867E300FE24D4 /* FrameworkTitleView.swift */; };
 		4136E326255868DB00FE24D4 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E325255868DB00FE24D4 /* XDismissButton.swift */; };
+		416BD51A25586E3200B5053A /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416BD51925586E3200B5053A /* FrameworkListView.swift */; };
+		416BD51E2558702200B5053A /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416BD51D2558702200B5053A /* FrameworkListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +29,13 @@
 		4136E3042557EB0400FE24D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4136E30B2557EBD300FE24D4 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		4136E30E2557EC4600FE24D4 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
-		4136E3122557ED4400FE24D4 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		4136E316255809F100FE24D4 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		4136E31925580C1B00FE24D4 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
-		4136E31C255817BC00FE24D4 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		4136E31F2558620800FE24D4 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		4136E322255867E300FE24D4 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		4136E325255868DB00FE24D4 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		416BD51925586E3200B5053A /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
+		416BD51D2558702200B5053A /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,19 +91,11 @@
 		4136E32925586A4F00FE24D4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				416BD51C25586FFA00B5053A /* FrameworklistView */,
 				4136E32B25586A6800FE24D4 /* FrameworkDetailView */,
-				4136E32A25586A5A00FE24D4 /* FrameworkGridView */,
+				416BD51925586E3200B5053A /* FrameworkListView.swift */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		4136E32A25586A5A00FE24D4 /* FrameworkGridView */ = {
-			isa = PBXGroup;
-			children = (
-				4136E3122557ED4400FE24D4 /* FrameworkGridView.swift */,
-				4136E31C255817BC00FE24D4 /* FrameworkGridViewModel.swift */,
-			);
-			path = FrameworkGridView;
 			sourceTree = "<group>";
 		};
 		4136E32B25586A6800FE24D4 /* FrameworkDetailView */ = {
@@ -155,6 +147,14 @@
 				4136E322255867E300FE24D4 /* FrameworkTitleView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		416BD51C25586FFA00B5053A /* FrameworklistView */ = {
+			isa = PBXGroup;
+			children = (
+				416BD51D2558702200B5053A /* FrameworkListViewModel.swift */,
+			);
+			path = FrameworklistView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,13 +227,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4136E30F2557EC4600FE24D4 /* MockData.swift in Sources */,
+				416BD51A25586E3200B5053A /* FrameworkListView.swift in Sources */,
 				4136E323255867E300FE24D4 /* FrameworkTitleView.swift in Sources */,
 				4136E317255809F100FE24D4 /* FrameworkDetailView.swift in Sources */,
-				4136E3132557ED4400FE24D4 /* FrameworkGridView.swift in Sources */,
+				416BD51E2558702200B5053A /* FrameworkListViewModel.swift in Sources */,
 				4136E30C2557EBD300FE24D4 /* Framework.swift in Sources */,
 				4136E3202558620800FE24D4 /* SafariView.swift in Sources */,
 				4136E31A25580C1B00FE24D4 /* AFButton.swift in Sources */,
-				4136E31D255817BC00FE24D4 /* FrameworkGridViewModel.swift in Sources */,
 				4136E2FC2557EB0400FE24D4 /* Apple_FrameworksApp.swift in Sources */,
 				4136E326255868DB00FE24D4 /* XDismissButton.swift in Sources */,
 			);
