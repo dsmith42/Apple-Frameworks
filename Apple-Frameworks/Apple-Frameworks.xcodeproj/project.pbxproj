@@ -16,6 +16,7 @@
 		4136E317255809F100FE24D4 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E316255809F100FE24D4 /* FrameworkDetailView.swift */; };
 		4136E31A25580C1B00FE24D4 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E31925580C1B00FE24D4 /* AFButton.swift */; };
 		4136E31D255817BC00FE24D4 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E31C255817BC00FE24D4 /* FrameworkGridViewModel.swift */; };
+		4136E3202558620800FE24D4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136E31F2558620800FE24D4 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4136E316255809F100FE24D4 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		4136E31925580C1B00FE24D4 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		4136E31C255817BC00FE24D4 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		4136E31F2558620800FE24D4 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				4136E3012557EB0400FE24D4 /* Preview Content */,
 				4136E316255809F100FE24D4 /* FrameworkDetailView.swift */,
 				4136E31925580C1B00FE24D4 /* AFButton.swift */,
+				4136E31F2558620800FE24D4 /* SafariView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				4136E317255809F100FE24D4 /* FrameworkDetailView.swift in Sources */,
 				4136E3132557ED4400FE24D4 /* FrameworkGridView.swift in Sources */,
 				4136E30C2557EBD300FE24D4 /* Framework.swift in Sources */,
+				4136E3202558620800FE24D4 /* SafariView.swift in Sources */,
 				4136E31A25580C1B00FE24D4 /* AFButton.swift in Sources */,
 				4136E31D255817BC00FE24D4 /* FrameworkGridViewModel.swift in Sources */,
 				4136E2FC2557EB0400FE24D4 /* Apple_FrameworksApp.swift in Sources */,
